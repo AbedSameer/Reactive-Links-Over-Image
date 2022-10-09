@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Reactive Links Over Image</title>
+</head>
+
+<body>
+    <div id="content-wraper">
+        <img src="imgs/test.jpg" alt="women" id="women-img" />
+        <div id="links-wraper">
+            <a href="#" class="img-link" id="back-link">Back</a>
+            <a href="#" class="img-link" id="elbow-link">Elbow</a>
+            <a href="#" class="img-link" id="hand-link">Hand/Wrist</a>
+            <a href="#" class="img-link" id="knees-link">Knees</a>
+            <a href="#" class="img-link" id="foot-link">Foot/Ankle</a>
+        </div>
+    </div>
+    <script type="">
+        //768 
+        if (window.innerWidth <= 768) {
+            document.querySelector("#women-img").setAttribute('src',"imgs/Mtest.jpg")
+        }
+    </script>
+</body>
+
+</html>
